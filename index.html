@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="main">
+    <dialog id="menu">
+        <button onclick="menu.close()">❌</button>
+        <ul style="margin-top: 20px;">
+            <li><a href="#main">Home</a></li>
+            <li><a href="#collections">Game collections</a></li>
+            <li><a href="#categories">All categories</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </dialog>
+    <header>
+        <nav>
+            <img src="download2.png">
+            <ul>
+                <li><a href="#main">Home</a></li>
+                <li><a href="#collections">Game collections</a></li>
+                <li><a href="#categories">All categories</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button onclick="menu.showModal()">☰</button>
+        </nav>
+    </header>
+    <section class="main" style="text-align: center;">
+        <img src="download2.png">
+        <br>
+        <button class="btn1">Download</button>
+        <br>
+
+        <button class="btn2">Sign in</button>
+    </section>
+    <section class="collections" id="collections" style="text-align: center;">
+        <h1>Game collections</h1>
+        <div class="cards">
+            <div class="card">
+                <img src="th.webp">
+                <h2>Squid game tycoon</h2>
+            </div>
+            <div class="card">
+                <img src="OIP3.webp">
+                <h2>Kpop demon hunters</h2>
+            </div>
+            <div class="card">
+                <img src="OIP2.webp">
+                <h2>the Walking dead</h2>
+            </div>
+        </div>
+    </section>
+    <section class="categories" id="categories" style="text-align: center;">
+        <h1>All categories</h1>
+        <div class="cards">
+            <div class="card">
+                <h2>1V1</h2>
+            </div>
+            <div class="card">
+                
+                <h2>Bed wars</h2>
+            </div>
+            <div class="card">
+                
+                <h2>Combat</h2>
+            </div>
+            <div class="card">
+                <h2>Escape</h2>
+            </div>
+            <div class="card">
+                
+                <h2>FFA</h2>
+            </div>
+            <div class="card">
+                
+                <h2>Horror</h2>
+            </div>
+            <div class="card">
+                <h2>Action</h2>
+            </div>
+            <div class="card">
+                
+                <h2>Box fights</h2>
+            </div>
+            <div class="card">
+                
+                <h2>Deathrun</h2>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <h1>Contact</h1>
+        <div class="images" style="text-align: center;">
+                <img src="Youtube Icon.png">
+                <img src="Tiktok Icon.png">
+                <img src="Twitter Icon.png">
+        </div>
+    </section>
+</body>
+</html>
