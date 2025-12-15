@@ -183,6 +183,9 @@ header nav img {
 .contact h1 {
     color: rgb(193, 223, 255);
 }
+.contact .images a {
+    text-decoration: none;
+}
 .contact .images a img{
     width: 50px;
 }
@@ -213,3 +216,4 @@ header nav img {
     }
 
 }
+
